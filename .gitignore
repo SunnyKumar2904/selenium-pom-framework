@@ -1,0 +1,9 @@
+/target/
+/test-output/
+/logs/
+report*.html
+screenshot/*.png
+.settings/
+.classpath
+.project
+.DS_Store

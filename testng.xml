@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="crmapplication">
+
+	<listeners>
+		<listener class-name="com.crmapplication.utilities.ExtentReportWithListeners"></listener>
+	</listeners>
+
+  <test thread-count="5" name="com.crmapplication.testcase">
+    <classes>
+      <class name="com.crmapplication.testcase.TestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
